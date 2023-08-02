@@ -22,75 +22,75 @@ Start the server by typing "npm start" into the terminal. Then navigate to your 
 **Product Requests:**
 
 1. Get all products: 
-    Method: GET
-    URL: http://localhost:3001/api/products
+    * Method: GET
+    * URL: http://localhost:3001/api/products
 
 2. GET a single product by ID:
-    Method: GET
-    URL: http://localhost:3001/api/products/{product_id}
+    * Method: GET
+    * URL: http://localhost:3001/api/products/{product_id}
 
 3. POST (create) a new product:
-    Method: POST
-    URL: http://localhost:3001/api/products
-    Request body: JSON object representing the new product (e.g., { "product_name": "Hiking Boots", "price": 49.99, "stock": 10, "category_id": 5 })
+    * Method: POST
+    * URL: http://localhost:3001/api/products
+    * Request body: JSON object representing the new product (e.g., { "product_name": "Hiking Boots", "price": 49.99, "stock": 10, "category_id": 5 })
 
 4. PUT (update) an existing product by ID:
-    Method: PUT
-    URL: http://localhost:3001/api/products/{product_id}
-    Request body: JSON object containing the updated product data (e.g., { "product_name": "Updated Product", "price": 59.99, "stock": 15 })
+    * Method: PUT
+    * URL: http://localhost:3001/api/products/{product_id}
+    * Request body: JSON object containing the updated product data (e.g., { "product_name": "Updated Product", "price": 59.99, "stock": 15 })
 
 5. DELETE a product by ID:
-    Method: DELETE
-    URL: http://localhost:3001/api/products/{product_id}
+    * Method: DELETE
+    * URL: http://localhost:3001/api/products/{product_id}
 
 
 **Category Requests:**
 
 1. GET all categories:
-    Method: GET
-    URL: http://localhost:3001/api/categories
+    * Method: GET
+    * URL: http://localhost:3001/api/categories
 
 2. GET a single category by ID:
-    Method: GET
-    URL: http://localhost:3001/api/categories/{category_id}
+    * Method: GET
+    * URL: http://localhost:3001/api/categories/{category_id}
 
 3. POST (create) a new category:
-    Method: POST
-    URL: http://localhost:3001/api/categories
-    Request body: JSON object representing the new category (e.g., { "category_name": "Pants" })
+    * Method: POST
+    * URL: http://localhost:3001/api/categories
+    * Request body: JSON object representing the new category (e.g., { "category_name": "Pants" })
 
 4. PUT (update) an existing category by ID:
-    Method: PUT
-    URL: http://localhost:3001/api/categories/{category_id}
-    Request body: JSON object containing the updated category data (e.g., { "category_name": "Suits" })
+    * Method: PUT
+    * URL: http://localhost:3001/api/categories/{category_id}
+    * Request body: JSON object containing the updated category data (e.g., { "category_name": "Suits" })
 
 5. DELETE a category by ID:
-    Method: DELETE
-    URL: http://localhost:3001/api/categories/{category_id}
+    * Method: DELETE
+    * URL: http://localhost:3001/api/categories/{category_id}
 
 **Tag API Requests:**
 
 1. GET all tags:
-    Method: GET
-    URL: http://localhost:3001/api/tags
+    * Method: GET
+    * URL: http://localhost:3001/api/tags
 
 2. GET a single tag by ID:
-    Method: GET
-    URL: http://localhost:3001/api/tags/{tag_id}
+    * Method: GET
+    * URL: http://localhost:3001/api/tags/{tag_id}
 
 3. POST (create) a new tag:
-    Method: POST
-    URL: http://localhost:3001/api/tags
-    Request body: JSON object representing the new tag (e.g., { "tag_name": "On Sale" })
+    * Method: POST
+    * URL: http://localhost:3001/api/tags
+    * Request body: JSON object representing the new tag (e.g., { "tag_name": "On   Sale" })
 
 4. PUT (update) an existing tag by ID:
-    Method: PUT
-    URL: http://localhost:3001/api/tags/{tag_id}
-    Request body: JSON object containing the updated tag data (e.g., { "tag_name": "Yellow" })
+    * Method: PUT
+    * URL: http://localhost:3001/api/tags/{tag_id}
+    * Request body: JSON object containing the updated tag data (e.g., { "tag_name": "Yellow" })
 
 5. DELETE a tag by ID:
-    Method: DELETE
-    URL: http://localhost:3001/api/tags/{tag_id}
+    * Method: DELETE
+    * URL: http://localhost:3001/api/tags/{tag_id}
 
 ## Credits
 The starter code for this project was cloned from this repository: https://github.com/coding-boot-camp/fantastic-umbrella
