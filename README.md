@@ -68,7 +68,7 @@ Start the server by typing "npm start" into the terminal. Then navigate to your 
     * Method: DELETE
     * URL: http://localhost:3001/api/categories/{category_id}
 
-**Tag API Requests:**
+**Tag Requests:**
 
 1. GET all tags:
     * Method: GET
