@@ -32,12 +32,12 @@ Start the server by typing "npm start" into the terminal. Then navigate to your 
 3. POST (create) a new product:
     * Method: POST
     * URL: http://localhost:3001/api/products
-    * Request body: JSON object representing the new product (e.g., { "product_name": "Hiking Boots", "price": 49.99, "stock": 10, "category_id": 5 })
+    * Request body: JSON object representing the new product (e.g., { "product_name": "Hiking Boots", "price": 49.99, "stock": 10, "category_id": 5, "tagIds": [1, 2, 7] })
 
 4. PUT (update) an existing product by ID:
     * Method: PUT
     * URL: http://localhost:3001/api/products/{product_id}
-    * Request body: JSON object containing the updated product data (e.g., { "product_name": "Updated Product", "price": 59.99, "stock": 15 })
+    * Request body: JSON object containing the updated product data (e.g., { "product_name": "Updated Product", "price": 59.99, "stock": 15, "tagIds": [3, 8] })
 
 5. DELETE a product by ID:
     * Method: DELETE
