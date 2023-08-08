@@ -53,10 +53,6 @@ router.put('/:id', async (req, res) => {
       }
     );
 
-    if (!updatedCategoryData[0]) {
-      return res.status(404).json({error: 'No category found with that ID'})
-    };
-
     res.status(200).json(updatedCategoryData);
   } catch (err) {
     console.error(err);
@@ -70,10 +66,6 @@ router.delete('/:id', async (req, res) => {
      where: {id: req.params.id}
     }
   );
-
-  if (!deletedCategoryData) {
-    return res.status(404).json({error: 'No category found with that ID'})
-  };
 
   res.status(200).json(deletedCategoryData);
 } catch (err) {
