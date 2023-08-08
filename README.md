@@ -97,3 +97,6 @@ The starter code for this project was cloned from this repository: https://githu
 
 Tag-Product associations were created using this tutorial: https://sequelize.org/api/v6/class/src/associations/belongs-to-many.js~belongstomany
 
+## Demonstration
+A link to a video demonstration can be found here: https://app.screencast.com/b2msAaw8XWDYP?tab=Details&conversation=5pGwnu0FJUWN1o6ZsUpCra
+
