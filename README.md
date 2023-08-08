@@ -37,7 +37,7 @@ Start the server by typing "npm start" into the terminal. Then navigate to your 
 4. PUT (update) an existing product by ID:
     * Method: PUT
     * URL: http://localhost:3001/api/products/{product_id}
-    * Request body: JSON object containing the updated product data (e.g., { "product_name": "Updated Product", "price": 59.99, "stock": 15, "tagIds": [3, 8] })
+    * Request body: JSON object containing the updated product data (e.g., { "product_name": "Suede Suit", "price": 59.99, "stock": 15, "tagIds": [3, 8] })
 
 5. DELETE a product by ID:
     * Method: DELETE
